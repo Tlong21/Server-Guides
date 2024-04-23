@@ -6,10 +6,9 @@ sudo usermod -a -G sudo username
 exit && sudo reboot
 ```
 ### Quick Setup CasaOS
-Freshly install a system from the list above and run this command:
+Freshly install a system by running this command:
 ```
 wget -qO- https://get.casaos.io | sudo bash
 ```
-### Restart Server and Run the command again.
-
+### Restart Server
 ### You can now path to the servers IP and start configuring Casaos
