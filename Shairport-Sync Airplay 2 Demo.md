@@ -1,4 +1,4 @@
-### MAIN BUILD REPOSITORY: https://github.com/mikebrady/shairport-sync
+### MAIN BUILD REPOSITORY: https://github.com/mikebrady/shairport-sync/blob/master/BUILD.md
 
 ### Debian / Raspberry Pi OS / Ubuntu
 ```
