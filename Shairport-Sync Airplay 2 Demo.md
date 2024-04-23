@@ -16,7 +16,7 @@ autoreconf -fi
 make
 make install
 ```
-## 4. Test
+### Test
 At this point, Shairport Sync should be built and installed but not running. If the user you are logged in as is a member of the unix `audio` group, Shairport Sync should run from the command line:
 ```
 shairport-sync
@@ -26,17 +26,17 @@ shairport-sync
 
 Note: Shairport Sync will run indefinitely -- use Control-C it to stop it.
 
-## 5. Enable and Start Service
+###. Enable and Start Service
 Once you are happy that Shairport Sync runs from the command line, you should enable and start the `shairport-sync` service. This will launch Shairport Sync automatically as a background "daemon" service when the system powers up:
 
 ### Linux
 ```
 # systemctl enable shairport-sync
 ```
-## 6. Check
+### Check
 Reboot the machine. The AirPlay service should once again be visible on the network and audio will be sent to the default ALSA device.
 
-## 7. Final Notes
+### Final Notes
 A number of system settings can affect Shairport Sync. Please review them as follows:
 
 ### Power Saving
@@ -51,4 +51,4 @@ or
 # iw dev wlan0 set power_save off
 ```
 
-Path to ROOT/ETC/shairport-sync.conf and delete the // and Add the name of the device.
+### Path to ROOT/ETC/shairport-sync.conf and delete the // and Add the name of the device.
