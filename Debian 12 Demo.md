@@ -21,3 +21,4 @@
 ![Debian 12 Demo 10](https://github.com/Tlong21/Server-Guides/assets/166747267/5dbcda59-b4ed-476b-a5f3-b1406954c2db)
 ![Debian 12 Demo 11](https://github.com/Tlong21/Server-Guides/assets/166747267/f3569630-e933-4445-916a-35f7958388ff)
 
+# You can now boot to your Debian 12 Drive
