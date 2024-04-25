@@ -19,4 +19,5 @@
 ## Extra Steps:
 ![Debian 12 Demo 9](https://github.com/Tlong21/Server-Guides/assets/166747267/f818568d-0435-4829-ae30-c80a1e7e8a02)
 ![Debian 12 Demo 10](https://github.com/Tlong21/Server-Guides/assets/166747267/5dbcda59-b4ed-476b-a5f3-b1406954c2db)
+![Debian 12 Demo 11](https://github.com/Tlong21/Server-Guides/assets/166747267/f3569630-e933-4445-916a-35f7958388ff)
 
