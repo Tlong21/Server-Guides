@@ -1,7 +1,7 @@
 ### MAIN BUILD REPOSITORY: https://github.com/mikebrady/shairport-sync/blob/master/BUILD.md
 
 ### Debian / Raspberry Pi OS / Ubuntu
-```
+```sh
 apt update
 apt upgrade
 apt install --no-install-recommends build-essential git autoconf automake libtool \
@@ -9,7 +9,7 @@ apt install --no-install-recommends build-essential git autoconf automake libtoo
     libplist-dev libsodium-dev libavutil-dev libavcodec-dev libavformat-dev uuid-dev libgcrypt-dev xxd
 ```
 ### NQPTP
-```
+```sh
 git clone https://github.com/mikebrady/shairport-sync.git
 cd shairport-sync
 autoreconf -fi
@@ -20,7 +20,7 @@ make install
 ```
 ### Test
 At this point, Shairport Sync should be built and installed but not running. If the user you are logged in as is a member of the unix `audio` group, Shairport Sync should run from the command line:
-```
+```sh
 shairport-sync
 ```
 * Add the `-v` command line option to get some diagnostics. 
@@ -32,7 +32,7 @@ Note: Shairport Sync will run indefinitely -- use Control-C it to stop it.
 Once you are happy that Shairport Sync runs from the command line, you should enable and start the `shairport-sync` service. This will launch Shairport Sync automatically as a background "daemon" service when the system powers up:
 
 ### Linux
-```
+```sh
 # systemctl enable shairport-sync
 ```
 ### Check
@@ -45,11 +45,11 @@ A number of system settings can affect Shairport Sync. Please review them as fol
 If your computer has an `Automatic Suspend` Power Saving Option, you should experiment with disabling it, because your computer has to be available for AirPlay service at all times.
 ### WiFi Power Management – Linux
 If you are using WiFi, you should turn off WiFi Power Management:
-```
+```sh
 # iwconfig wlan0 power off
 ```
 or
-```
+```sh
 # iw dev wlan0 set power_save off
 ```
 
