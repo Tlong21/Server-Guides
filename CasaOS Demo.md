@@ -1,4 +1,4 @@
-### MAIN BUILD REPOSITORY: https://github.com/IceWhaleTech/CasaOS
+### MAIN BUILD REPOSITORY: [CasaOS](https://github.com/IceWhaleTech/CasaOS)
 ### Make User Account a Sudo account in Root
 ```sh
 su
