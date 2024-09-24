@@ -1,5 +1,5 @@
-# Download Debian 12 iso from their website: https://www.debian.org/
-# Download Rufus from their website: https://rufus.ie/en/
+# Download Debian 12 iso from their website: [Debian 12](https://www.debian.org/)
+# Download Rufus from their website: [Rufus](https://rufus.ie/en/)
 
 ## Mount Debian 12 to a usb stick using Rufus.
 ![Rufus Debian 12 Install](https://github.com/Tlong21/Server-Guides/assets/166747267/b0a5bb51-9228-4106-9f3d-737d9acaf6a1)
