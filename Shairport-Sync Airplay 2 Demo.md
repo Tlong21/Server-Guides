@@ -33,7 +33,7 @@ Once you are happy that Shairport Sync runs from the command line, you should en
 
 ### Linux
 ```sh
-# systemctl enable shairport-sync
+systemctl enable shairport-sync
 ```
 ### Check
 Reboot the machine. The AirPlay service should once again be visible on the network and audio will be sent to the default ALSA device.
@@ -46,11 +46,11 @@ If your computer has an `Automatic Suspend` Power Saving Option, you should expe
 ### WiFi Power Management – Linux
 If you are using WiFi, you should turn off WiFi Power Management:
 ```sh
-# iwconfig wlan0 power off
+iwconfig wlan0 power off
 ```
 or
 ```sh
-# iw dev wlan0 set power_save off
+iw dev wlan0 set power_save off
 ```
 
 ### Path to ROOT/ETC/shairport-sync.conf and delete the // and Add the name of the device.
