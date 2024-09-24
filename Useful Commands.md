@@ -1,5 +1,5 @@
 ### Useful Commands Frequently Used
-### chmod (https://www.computerhope.com/unix/uchmod.htm)
+### chmod | [Learn More](https://www.computerhope.com/unix/uchmod.htm)
 ```sh
 sudo chmod -R 777 /Path/To/Folder/Or/File #Full Access to all Folders and Files in Path
 ```
