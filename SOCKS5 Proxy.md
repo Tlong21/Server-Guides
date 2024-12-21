@@ -42,6 +42,12 @@ These credentials are separate from your regular NordVPN login details and are s
 
 ---
 
+## **Step 4: Video Tutorial**
+
+For a visual guide, watch this step-by-step tutorial on YouTube: [How to Set Up a SOCKS5 Proxy for qBittorrent with NordVPN](https://www.youtube.com/watch?v=1B0_UAxtgeU)
+
+---
+
 ## **Additional Notes**
 
 - **Important**: SOCKS5 proxies do not encrypt your traffic. For full encryption, consider using a VPN alongside the proxy.
