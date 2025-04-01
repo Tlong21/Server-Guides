@@ -1,5 +1,16 @@
 # Server Overview
 
+### Server Details Commands
+```sh
+lscpu
+dmidecode
+df -h
+free -h
+lsb_release -a
+uname -r
+sudo dmidecode -t 17
+```
+
 ## **Cameras Server**
 
 ### **CPU:**
