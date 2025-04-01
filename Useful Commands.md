@@ -12,9 +12,15 @@ sudo ufw status #Port Infortmation
 ```sh
 sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
 ```
-### More Commands
+### Server Details Commands
 ```sh
-#Space for More Commands Later
+lscpu
+dmidecode
+df -h
+free -h
+lsb_release -a
+uname -r
+sudo dmidecode -t 17
 ```
 ### More Commands
 ```sh
