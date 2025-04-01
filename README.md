@@ -2,12 +2,25 @@
 
 ### Server Details Commands
 ```sh
+# Get CPU architecture details
 lscpu
+
+# Show system memory details
 dmidecode
+
+# Display disk usage
 df -h
+
+# Display memory usage
 free -h
+
+# Show OS details
 lsb_release -a
+
+# Show kernel version
 uname -r
+
+# Show detailed system information about memory (sudo is required)
 sudo dmidecode -t 17
 ```
 
